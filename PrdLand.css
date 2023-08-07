@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+#header-img{
+    width: 300px;
+    height: 20%;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#nav-bar{
+    margin-left: auto;
+    justify-content: flex-end;
+    margin-right: 125px;
+}
+
+#nav-bar a{
+    padding-left: 50px;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+
+form{
+
+}
+
+.e-mail{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h1{
+    margin-top: 40px;
+    font-size: 23px;
+}
+
+#email{
+    width: 270px;
+    height: 25px;
+    
+    margin-top: 15px;
+}
+
+#getstarted{    
+    margin-top: 15px;
+    width: 120px;
+    height: 30px;
+    background-color: orange;
+    border-style: none ;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 150px;
+}
+
+.list{
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 500px;
+}
+
+#imglist1, #imglist2, #imglist3{
+    
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    /*margin-left: 20px;*/
+    float: left;
+    margin-right: 10px
+
+}
+
+list h2, list p{
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+}
+
+h2{
+
+    
+    margin: 0;
+    
+}
+
+.list p{
+    
+    margin: 0;
+    
+    
+}
+
+.works{
+    margin-left: 20px;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+iframe{
+    width: 500px;
+    height: 300px;
+}
+
+.listprice{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap:20px;
+}
+
+.price1, .price2, .price3{
+    font-size: 20px;
+    width: 320px;
+    height: 300px;
+    border: 1px solid ;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h3{
+    background-color: #ddd;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+h4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+ol ul{
+    
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+#select{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border-style: none ;
+    color: black;
+
+}
+
+.barajos{
+    margin-top: 50px;
+    background-color: #ddd;
+    width: 55%;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 430px;
+}
+
+#nav-bar1{
+    font-size: 15px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    padding-left: 150px;
+    gap:20px;
+}
+
+.barajosautor{
+    color: #444;
+    font-size: 14px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
